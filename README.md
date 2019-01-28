@@ -3,12 +3,12 @@
 Test project for uploading photo ID documents for mortgage approval.
 
 ## Installation
-Download the zip file and then use the package manager [npm](https://www.npmjs.com/) to install the dependencies. (This will install serverside)
+Download the zip file and then use the package manager [npm](https://www.npmjs.com/) to install the dependencies. (This will install server-side)
 
 ```bash
 npm install
 ```
-go into the client folder to install all react dependencies
+go into the client folder to install all react dependencies (client-side)
 
 ```bash
 cd client
