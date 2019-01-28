@@ -1,0 +1,41 @@
+/* The name on top left corner*/
+.logoHead{
+    margin-top: 4vw;
+    margin-left: 7vw;
+    color: black;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+/* Login Box*/
+.Login{
+    position: absolute;
+    background-color: white;
+    top: 20vw;
+    left: 55vw;
+    padding: 5vw;
+    border-radius: 5%;
+    box-shadow: #d1d1d1 1px 0px 1px 0px;
+}
+
+/* Overriding some bootstrap CSS rules */
+#bootstrap-overrides{
+    width: auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* Elements inside Login Box */
+.login-head{
+    margin-bottom: 2em;
+}
+
+#col-new{
+    padding-left: 0px;
+}
+
+.btnWrapper{
+    text-align: center;
+}

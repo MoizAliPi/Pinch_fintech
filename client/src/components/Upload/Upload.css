@@ -1,0 +1,53 @@
+/* Navbar on the top */
+.navbarDash{
+    background-color: #691a4f;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+/* Overriding bootstrap anchor tag rule */
+#whiteAnch{
+    color: white;
+}
+
+/* Inside form elements customization */
+.uploadForm{
+    margin: 2em 0em;
+    background-color: white;
+    height: 30vw;
+}
+
+.sizeMsg{
+    margin-top: 1em;
+    font-style: italic;
+}
+
+.showImg{
+    height: 80%;
+    width: 85%;
+    margin: 1.5em;
+}
+
+.uploadLeft{
+    padding: 2em;
+}
+
+.uploadRight{
+    position: relative;
+}
+
+#uploadBtn{
+    background-color: rgb(40, 149, 42);
+    left: 70%;
+    top: 90%;
+    padding: 0.25em 1.25em;
+    position: absolute;
+}
+
+.uploadMsg{
+    top: 91%;
+    left: 35%;
+    position: absolute;
+
+}
