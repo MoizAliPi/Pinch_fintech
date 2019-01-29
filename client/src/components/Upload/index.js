@@ -77,9 +77,9 @@ class Upload extends Component {
         }
 
         if(this.state.sizeBig){
-            $imgLargeMsg = ( <p className="sizeMsg">{this.state.msg}</p> );
+            $imgLargeMsg = ( <p className="sizeMsg">{this.state.msg} </p> );
         }else{
-            $imgLargeMsg = ( <p className="sizeMsg">{this.state.msg}</p> );
+            $imgLargeMsg = ( <p className="sizeMsg">{this.state.msg} </p> );
         }
 
         if(this.state.UploadCheck){
@@ -88,7 +88,7 @@ class Upload extends Component {
 
 
         return(
-            <div>
+            <div className="uploadClass">
                 <Navbar className="navbarDash" expand="md">
                     <NavbarBrand id="whiteAnch" href="/">Welcome, Mr Stark!</NavbarBrand>
                     <Nav className="ml-auto" navbar>

@@ -15,7 +15,9 @@
 .uploadForm{
     margin: 2em 0em;
     background-color: white;
-    height: 30vw;
+    height: 40vw;
+    box-shadow: #e2e2e2 1px 0px 6px 0px;
+    border-radius: 20px;
 }
 
 .sizeMsg{
